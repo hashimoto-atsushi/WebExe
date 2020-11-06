@@ -82,4 +82,5 @@ production:
   <<: *default
   database: WebExe_production
   username: WebExe
+  port: 5432
   password: <%= ENV['WEBEXE_DATABASE_PASSWORD'] %>
